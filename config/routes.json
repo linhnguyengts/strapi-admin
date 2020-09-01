@@ -129,6 +129,14 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/dashboard",
+      "handler": "Custom.dashboard",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }
